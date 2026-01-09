@@ -57,22 +57,21 @@ nav .menu a {
   transition-delay: 0.2s;
 }
 
-#banner{
+#banner {
   min-height: 674px;
   background: url("./assets/hero-bg.png");
   background-repeat: no-repeat;
   text-align: center;
   display: flex;
-
 }
-.banner-content{
+.banner-content {
   max-width: 1360px;
   /* height: 379px; */
   margin: 0 auto;
   margin-top: 115px;
 }
 
-.banner-content .early{
+.banner-content .early {
   padding: 8px 12px;
   background: #ffffff;
   display: inline-block;
@@ -80,28 +79,25 @@ nav .menu a {
   justify-content: center;
   border-radius: 1000px;
   margin-bottom: 16px;
-  color: #30B868;
+  color: #30b868;
   font-weight: 500;
   line-height: 19px;
   cursor: pointer;
 }
 
-
-
-.banner-content h1{
+.banner-content h1 {
   color: #ffffff;
   font-size: 72px;
   font-weight: 700;
   line-height: 84px;
   margin-bottom: 16px;
-
 }
 
-h1 .h-color{
+h1 .h-color {
   color: #30b868;
 }
 
-.banner-content .pera{
+.banner-content .pera {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -110,7 +106,7 @@ h1 .h-color{
   text-align: center;
 }
 
-.banner-button .pro-btn{
+.banner-button .pro-btn {
   border-radius: 4px;
   border: none;
   background-color: #469165;
@@ -127,7 +123,7 @@ h1 .h-color{
   transition-delay: 0.2s;
 }
 
-.banner-button .new-btn{
+.banner-button .new-btn {
   border-radius: 4px;
   border: 1px solid white;
   background-color: transparent;
@@ -136,36 +132,34 @@ h1 .h-color{
   color: #ffffff;
   justify-content: space-evenly;
 }
-.new-btn:hover{
+.new-btn:hover {
   color: #255784;
   background: #2196f3;
-  box-shadow:  0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
   transition-delay: 0.2s;
 }
 
-
-#note-taking{
+#note-taking {
   margin: 0 auto;
 }
 
 #note-taking .note-container {
   text-align: center;
-
 }
 
- .note-container .section-heading {
+.note-container .section-heading {
   max-width: 1360px;
   text-align: center;
   margin: 0 auto;
 }
-.note-container .section-heading h2{
+.note-container .section-heading h2 {
   font-style: Bold;
   font-size: 48px;
   font-weight: 700;
   padding-top: 40px;
   margin-bottom: 16px;
 }
-.note-container .section-heading p{
+.note-container .section-heading p {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -176,41 +170,79 @@ h1 .h-color{
 #note-taking .note-container .note-info {
   display: flex;
   justify-content: space-evenly;
-  
 }
 
-.note-info .info-card{
+.note-info .info-card {
   background-color: #ffffff;
   box-shadow: 0 10px 50px 0 #00000017;
   margin-right: 24px;
   /* border: 2px solid black; */
   padding: 24px 24px;
   width: 322px;
-
 }
 
-.note-info .info-card img{
-  background-color: #F95555;
+.note-info .info-card img {
+  background-color: #f95555;
   width: 60px;
   height: 60px;
   border-radius: 50%;
   padding: 16px 16px;
   margin-bottom: 16px;
-
 }
 
 .note-info .info-card h4 {
- font-size: 24px;
- font-weight: 600;
- line-height: 29px;
- color: #001931;
- margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #001931;
+  margin-bottom: 16px;
 }
 
-.note-info .info-card p{
+.note-info .info-card p {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   color: #627382;
   margin-bottom: 22px;
+}
+
+#second-brain {
+  padding: 120px 120px;
+}
+
+.second-brain-container {
+  display: flex;
+  gap: 60px;
+}
+.second-brain-container .content {
+  margin: 102px 0;
+}
+
+.content .head .green {
+  color: #30b868;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.content .head .simple {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.content .head h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 16px;
+  color: #001931;
+}
+
+.content .content-info p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 16px;
 }
