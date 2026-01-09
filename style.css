@@ -246,3 +246,59 @@ h1 .h-color {
   line-height: 20px;
   margin-bottom: 16px;
 }
+
+#early-access{
+  margin: 0 auto;
+}
+
+#early-access .early-access-container{
+  margin: 2px 120px 120px 120px;
+  padding: 80px 40px;
+  text-align: center;
+  background-color: #F7F6F2;
+  border-radius: 12px;
+}
+
+.early-access-container .head h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 16px;
+  color: #001931;
+}
+
+.early-access-container .head p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 16px;
+  color: #627382;
+}
+
+.early-access-container .button button{
+  background-color: #469165;
+  border: none;
+  padding: 12px 16px 12px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: inter;
+  margin-bottom: 16px;
+}
+.early-access-container .button button:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 0.2s;
+}
+
+.early-access-container .button p{
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
