@@ -246,20 +246,21 @@ h1 .h-color {
   line-height: 20px;
   margin-bottom: 16px;
 }
+/* early access section starts */
 
-#early-access{
+#early-access {
   margin: 0 auto;
 }
 
-#early-access .early-access-container{
+#early-access .early-access-container {
   margin: 2px 120px 120px 120px;
   padding: 80px 40px;
   text-align: center;
-  background-color: #F7F6F2;
+  background-color: #f7f6f2;
   border-radius: 12px;
 }
 
-.early-access-container .head h2{
+.early-access-container .head h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
@@ -267,7 +268,7 @@ h1 .h-color {
   color: #001931;
 }
 
-.early-access-container .head p{
+.early-access-container .head p {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -275,7 +276,7 @@ h1 .h-color {
   color: #627382;
 }
 
-.early-access-container .button button{
+.early-access-container .button button {
   background-color: #469165;
   border: none;
   padding: 12px 16px 12px 16px;
@@ -288,17 +289,77 @@ h1 .h-color {
   font-family: inter;
   margin-bottom: 16px;
 }
-.early-access-container .button button:hover{
+.early-access-container .button button:hover {
   color: #255784;
   background: #2196f3;
   box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
   transition-delay: 0.2s;
 }
 
-.early-access-container .button p{
+.early-access-container .button p {
   color: #627382;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
 }
+/* footer section start */
 
+.footer {
+  width: 100%;
+  background: linear-gradient(135deg, #041c32, #04293a);
+  color: #ffffff;
+  padding: 120px 120px 30px 120px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-container .logo {
+  margin-bottom: 83px;
+  cursor: pointer;
+}
+
+.footer-social h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icons a {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #04293a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  text-decoration: none;
+  margin-bottom: 80px;
+}
+.social-icons a:hover {
+  background: #4ade80;
+  color: #022c22;
+}
+.footer-divider {
+  height: 1px;
+  background-color: #fafafa;
+  opacity: 50%;
+  margin-bottom: 30px;
+}
+.footer-copy {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
