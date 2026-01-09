@@ -10,7 +10,8 @@
 }
 
 nav {
-  width: 1600px;
+  width: 92%;
+  max-width: 1600px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -38,7 +39,7 @@ nav .menu a {
 }
 
 .container .nav-btn .btn {
-  background-color: #30b868;
+  background-color: #469165;
   border: none;
   padding: 12px 16px 12px 16px;
   border-radius: 4px;
@@ -59,6 +60,7 @@ nav .menu a {
 #banner{
   min-height: 674px;
   background: url("./assets/hero-bg.png");
+  background-repeat: no-repeat;
   text-align: center;
   display: flex;
 
@@ -101,11 +103,11 @@ h1 .h-color{
 
 .banner-content .pera{
   font-size: 18px;
- font-weight: 400;
- line-height: 30px;
- color: #ffffff;
- margin-bottom: 32px;
- text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 32px;
+  text-align: center;
 }
 
 .banner-button .pro-btn{
@@ -137,6 +139,78 @@ h1 .h-color{
 .new-btn:hover{
   color: #255784;
   background: #2196f3;
-  box-shadow: 0 0 10px #40dff7, 0 0 40px #189fe8ae, 0 0 80px #1adfd5cf;
+  box-shadow:  0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
   transition-delay: 0.2s;
+}
+
+
+#note-taking{
+  margin: 0 auto;
+}
+
+#note-taking .note-container {
+  text-align: center;
+
+}
+
+ .note-container .section-heading {
+  max-width: 1360px;
+  text-align: center;
+  margin: 0 auto;
+}
+.note-container .section-heading h2{
+  font-style: Bold;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 40px;
+  margin-bottom: 16px;
+}
+.note-container .section-heading p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 44px;
+}
+
+#note-taking .note-container .note-info {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.note-info .info-card{
+  background-color: #ffffff;
+  box-shadow: 0 10px 50px 0 #00000017;
+  margin-right: 24px;
+  /* border: 2px solid black; */
+  padding: 24px 24px;
+  width: 322px;
+
+}
+
+.note-info .info-card img{
+  background-color: #F95555;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 16px 16px;
+  margin-bottom: 16px;
+
+}
+
+.note-info .info-card h4 {
+ font-size: 24px;
+ font-weight: 600;
+ line-height: 29px;
+ color: #001931;
+ margin-bottom: 16px;
+}
+
+.note-info .info-card p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 22px;
 }
